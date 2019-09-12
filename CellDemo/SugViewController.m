@@ -9,6 +9,7 @@
 #import "SugViewController.h"
 #import "SugTableViewCell.h"
 #import "ListSugModel.h"
+#import "SugHeaderView.h"
 
 @interface SugViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic ,strong) UITableView *tableView;
@@ -58,5 +59,14 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 40;
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return UITableViewAutomaticDimension;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    return [SugHeaderView new];
+}
+
 
 @end

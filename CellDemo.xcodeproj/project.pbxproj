@@ -20,6 +20,7 @@
 		F16ED7E92329F808005521AB /* ListSugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F16ED7E82329F808005521AB /* ListSugModel.m */; };
 		F16ED7EC2329F839005521AB /* SugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16ED7EB2329F839005521AB /* SugViewController.m */; };
 		F16ED7EF2329F887005521AB /* SugTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F16ED7EE2329F887005521AB /* SugTableViewCell.m */; };
+		F16ED7F8232A2795005521AB /* SugHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16ED7F7232A2795005521AB /* SugHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		F16ED7EB2329F839005521AB /* SugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugViewController.m; sourceTree = "<group>"; };
 		F16ED7ED2329F887005521AB /* SugTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugTableViewCell.h; sourceTree = "<group>"; };
 		F16ED7EE2329F887005521AB /* SugTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugTableViewCell.m; sourceTree = "<group>"; };
+		F16ED7F6232A2795005521AB /* SugHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugHeaderView.h; sourceTree = "<group>"; };
+		F16ED7F7232A2795005521AB /* SugHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				F11224512328A91600535D79 /* ListTableViewCell.m */,
 				F16ED7ED2329F887005521AB /* SugTableViewCell.h */,
 				F16ED7EE2329F887005521AB /* SugTableViewCell.m */,
+				F16ED7F6232A2795005521AB /* SugHeaderView.h */,
+				F16ED7F7232A2795005521AB /* SugHeaderView.m */,
 				F11224532328AA4300535D79 /* ListModel.h */,
 				F11224542328AA4300535D79 /* ListModel.m */,
 				F16ED7E72329F808005521AB /* ListSugModel.h */,
@@ -217,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11224552328AA4300535D79 /* ListModel.m in Sources */,
+				F16ED7F8232A2795005521AB /* SugHeaderView.m in Sources */,
 				F112243D2328A7E800535D79 /* ViewController.m in Sources */,
 				F11224522328A91600535D79 /* ListTableViewCell.m in Sources */,
 				F16ED7EC2329F839005521AB /* SugViewController.m in Sources */,
