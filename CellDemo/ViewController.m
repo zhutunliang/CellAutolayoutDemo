@@ -26,7 +26,9 @@
     self.title = @"Feed";
     
     
-    self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds];
+    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 88, self.view.frame.size.width, self.view.frame.size.height - 88)];
+    self.tableView.backgroundColor = [UIColor yellowColor];
+    self.tableView.contentInset = UIEdgeInsetsMake(0, 20, 0, 20);
     [self.view addSubview:self.tableView];
     [self.tableView registerClass:[ListTableViewCell class] forCellReuseIdentifier:@"listCell"];
     self.tableView.delegate = self;

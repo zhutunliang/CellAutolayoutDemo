@@ -16,6 +16,10 @@
 		F112244F2328A8CA00535D79 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F112244E2328A8CA00535D79 /* data.json */; };
 		F11224522328A91600535D79 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F11224512328A91600535D79 /* ListTableViewCell.m */; };
 		F11224552328AA4300535D79 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F11224542328AA4300535D79 /* ListModel.m */; };
+		F16ED7E62329F7ED005521AB /* data2.json in Resources */ = {isa = PBXBuildFile; fileRef = F16ED7E52329F7EC005521AB /* data2.json */; };
+		F16ED7E92329F808005521AB /* ListSugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F16ED7E82329F808005521AB /* ListSugModel.m */; };
+		F16ED7EC2329F839005521AB /* SugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16ED7EB2329F839005521AB /* SugViewController.m */; };
+		F16ED7EF2329F887005521AB /* SugTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F16ED7EE2329F887005521AB /* SugTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,13 @@
 		F11224512328A91600535D79 /* ListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
 		F11224532328AA4300535D79 /* ListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
 		F11224542328AA4300535D79 /* ListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		F16ED7E52329F7EC005521AB /* data2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data2.json; sourceTree = "<group>"; };
+		F16ED7E72329F808005521AB /* ListSugModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListSugModel.h; sourceTree = "<group>"; };
+		F16ED7E82329F808005521AB /* ListSugModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListSugModel.m; sourceTree = "<group>"; };
+		F16ED7EA2329F839005521AB /* SugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugViewController.h; sourceTree = "<group>"; };
+		F16ED7EB2329F839005521AB /* SugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugViewController.m; sourceTree = "<group>"; };
+		F16ED7ED2329F887005521AB /* SugTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugTableViewCell.h; sourceTree = "<group>"; };
+		F16ED7EE2329F887005521AB /* SugTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +101,19 @@
 			children = (
 				F11224382328A7E800535D79 /* AppDelegate.h */,
 				F11224392328A7E800535D79 /* AppDelegate.m */,
+				F16ED7EA2329F839005521AB /* SugViewController.h */,
+				F16ED7EB2329F839005521AB /* SugViewController.m */,
 				F112243B2328A7E800535D79 /* ViewController.h */,
 				F112243C2328A7E800535D79 /* ViewController.m */,
 				F11224502328A91600535D79 /* ListTableViewCell.h */,
 				F11224512328A91600535D79 /* ListTableViewCell.m */,
+				F16ED7ED2329F887005521AB /* SugTableViewCell.h */,
+				F16ED7EE2329F887005521AB /* SugTableViewCell.m */,
 				F11224532328AA4300535D79 /* ListModel.h */,
 				F11224542328AA4300535D79 /* ListModel.m */,
+				F16ED7E72329F808005521AB /* ListSugModel.h */,
+				F16ED7E82329F808005521AB /* ListSugModel.m */,
+				F16ED7E52329F7EC005521AB /* data2.json */,
 				F112244E2328A8CA00535D79 /* data.json */,
 				F11224412328A7EA00535D79 /* Assets.xcassets */,
 				F11224432328A7EA00535D79 /* LaunchScreen.storyboard */,
@@ -165,6 +183,7 @@
 			files = (
 				F11224452328A7EA00535D79 /* LaunchScreen.storyboard in Resources */,
 				F112244F2328A8CA00535D79 /* data.json in Resources */,
+				F16ED7E62329F7ED005521AB /* data2.json in Resources */,
 				F11224422328A7EA00535D79 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,8 +219,11 @@
 				F11224552328AA4300535D79 /* ListModel.m in Sources */,
 				F112243D2328A7E800535D79 /* ViewController.m in Sources */,
 				F11224522328A91600535D79 /* ListTableViewCell.m in Sources */,
+				F16ED7EC2329F839005521AB /* SugViewController.m in Sources */,
+				F16ED7E92329F808005521AB /* ListSugModel.m in Sources */,
 				F11224482328A7EA00535D79 /* main.m in Sources */,
 				F112243A2328A7E800535D79 /* AppDelegate.m in Sources */,
+				F16ED7EF2329F887005521AB /* SugTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
